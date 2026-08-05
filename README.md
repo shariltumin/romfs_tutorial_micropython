@@ -51,7 +51,7 @@ The new deployment will override the previous one in the ROMFS. We can only have
 
 5. **Query Command:**
 ```bash
-$ mpr romfs query
+$ mpremote a0 romfs query
 ROMFS0 partition has size 1048576 bytes (256 blocks of 4096 bytes each)
   Raw contents: d2:cd:31:8c:03:05:8c:00:0b:75:74:69 ...
   ROMFS image size: 1539
